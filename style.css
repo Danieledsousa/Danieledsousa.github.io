@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(100, 145, 130);
+    color: white;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.containerHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerHeader h1{
+    font-size: 20px;
+
+}
+
+.menuPortifolio{
+    display: flex;
+
+}
+
+.menuPortifolio li{
+    list-style: none;
+    margin-left: 15px;
+
+}
+
+.menuPortifolio li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.meuNome{
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    font-weight: 100;
+}
+
+.description{
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+#fotoPessoal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 200px;
+    border-radius: 100%;
+    padding: 4px;
+    background: linear-gradient(to right, rgb(111, 163, 197), rgb(172, 94, 172));
+}
+
+.redes{
+    display: flex;
+    list-style: none;
+    
+}
+
+.redes li a{
+    text-decoration: none;
+    
+}
+
+.redes li a img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
